@@ -24,6 +24,9 @@ h2{
     font-size: 65px;
     font-weight: 500;
 }
+h4{
+    font-family: 'Poppins', sans-serif;
+}
 .radis-color{
     color: #FF8367;
 }
@@ -56,10 +59,11 @@ h2{
 section{
     height: 500px;
     padding-bottom: 150px;
-    margin: 100px 80px;
+    margin: 0px 80px;
 }
 .third-sec h2{
     text-align: center;
+    font-size: 50px;
 }
 .third-sec{
     background-color: whitesmoke;
@@ -71,5 +75,45 @@ section{
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
-    
+    height: 350px;
+}
+.web-items{
+    float: right;
+    display: flex;
+    padding-right: 5%;
+}
+.web-items h4{
+    padding-right: 50px;
+    font-weight: 500;
+}
+#left-item{
+    position: relative;
+    left: 280px;
+    top: 210px;
+    color: white;
+}
+#right-item{
+    position: relative;
+    left: 750px;
+    top: 100px;
+}
+.fifth-sec{
+    text-align: center;
+    height: 200px;
+}
+.fifth-sec img{
+    width: 3%;
+    padding-left: 20px;
+}
+.fifth-sec h3{
+    color: gray;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.fifth-sec h2{
+    color: #363958;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
